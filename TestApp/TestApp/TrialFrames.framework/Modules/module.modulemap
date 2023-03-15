@@ -1,0 +1,11 @@
+framework module TrialFrames {
+  umbrella header "TrialFrames.h"
+
+  export *
+  module * { export * }
+}
+
+module TrialFrames.Swift {
+    header "TrialFrames-Swift.h"
+    requires objc
+}
